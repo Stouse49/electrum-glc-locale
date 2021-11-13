@@ -38,7 +38,7 @@ msgid "&Addresses"
 msgstr "Direcciones"
 
 #: electrum/gui/qt/main_window.py:776
-msgid "&Bitcoin Paper"
+msgid "&Goldcoin Paper"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:771
@@ -585,19 +585,19 @@ msgid "BIP70 invoice saved as {}"
 msgstr "Factura BIP70 guardada como {}"
 
 #: electrum/gui/qt/history_list.py:596
-msgid "BTC Fiat price"
+msgid "GLC Fiat price"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:592
-msgid "BTC balance"
+msgid "GLC balance"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:613
-msgid "BTC incoming"
+msgid "GLC incoming"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:617
-msgid "BTC outgoing"
+msgid "GLC outgoing"
 msgstr ""
 
 #: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:163
@@ -674,16 +674,16 @@ msgid "BitBox02 Status"
 msgstr "Estado de BitBox02"
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:95
-msgid "Bitcoin Address"
-msgstr "Dirección de Bitcoin"
+msgid "Goldcoin Address"
+msgstr "Dirección de Goldcoin"
 
 #: electrum/gui/qt/main_window.py:1509
-msgid "Bitcoin Address is None"
-msgstr "La dirección Bitcoin es None"
+msgid "Goldcoin Address is None"
+msgstr "La dirección Goldcoin es None"
 
 #: electrum/gui/qt/confirm_tx_dialog.py:142
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Las transacciones de bitcoin por lo general no son gratuitas. Una comisión por la transacción es pagada por el remitente de los fondos."
+msgid "Goldcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Las transacciones de goldcoin por lo general no son gratuitas. Una comisión por la transacción es pagada por el remitente de los fondos."
 
 #: electrum/gui/qt/locktimeedit.py:36
 msgid "Block height"
@@ -1691,8 +1691,8 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "Error de comunicación del dispositivo. Desenchufe y vuelva a conectar su Digital Bitbox."
 
 #: electrum/plugins/ledger/ledger.py:230
-msgid "Device not in Bitcoin mode"
-msgstr "El dispositivo no está en modo Bitcoin"
+msgid "Device not in Goldcoin mode"
+msgstr "El dispositivo no está en modo Goldcoin"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
 msgid "Digital Bitbox wallet"
@@ -1887,8 +1887,8 @@ msgid "Electrum will now exit."
 msgstr "Electrum ahora se va a cerrar."
 
 #: electrum/gui/qt/main_window.py:794
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
-msgstr "El objetivo de Electrum es ser una interfaz simplificada de Bitcoin veloz y  que utilice pocos recursos del sistema."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Goldcoin."
+msgstr "El objetivo de Electrum es ser una interfaz simplificada de Goldcoin veloz y  que utilice pocos recursos del sistema."
 
 #: electrum/plugins/email_requests/__init__.py:3
 msgid "Email"
@@ -2038,8 +2038,8 @@ msgid "Enter a label to name your device:"
 msgstr "Introduzca un nombre para tu dispositivo:"
 
 #: electrum/base_wizard.py:230
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Introduce una lista de direcciones Bitcoin (esto creará una cartera de sólo lectura), o una lista de llaves privadas."
+msgid "Enter a list of Goldcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Introduce una lista de direcciones Goldcoin (esto creará una cartera de sólo lectura), o una lista de llaves privadas."
 
 #: electrum/gui/qt/main_window.py:2090
 msgid "Enter a list of outputs in the 'Pay to' field."
@@ -2445,8 +2445,8 @@ msgid "Firmware Version"
 msgstr "Versión del firmware"
 
 #: electrum/plugins/ledger/ledger.py:45
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
-msgstr "Versión de firmware (o de la app \"Bitcoin\") demasiado antigua para soporte Segwit. Por favor actualizar a"
+msgid "Firmware version (or \"Goldcoin\" app) too old for Segwit support. Please update at"
+msgstr "Versión de firmware (o de la app \"Goldcoin\") demasiado antigua para soporte Segwit. Por favor actualizar a"
 
 #: electrum/plugins/trezor/qt.py:425
 msgid "Firmware version too old."
@@ -2832,12 +2832,12 @@ msgid "Import"
 msgstr "Importar"
 
 #: electrum/base_wizard.py:229
-msgid "Import Bitcoin Addresses"
-msgstr "Importar dirección de Bitcoin"
+msgid "Import Goldcoin Addresses"
+msgstr "Importar dirección de Goldcoin"
 
 #: electrum/base_wizard.py:150
-msgid "Import Bitcoin addresses or private keys"
-msgstr "Importar dirección de Bitcoin o llaves privadas"
+msgid "Import Goldcoin addresses or private keys"
+msgstr "Importar dirección de Goldcoin o llaves privadas"
 
 #: electrum/gui/kivy/main_window.py:1379
 msgid "Import Channel Backup?"
@@ -2986,17 +2986,17 @@ msgstr "Cantidad inválida"
 
 #: electrum/gui/kivy/uix/screens.py:313
 #: electrum/plugins/hw_wallet/plugin.py:128
-msgid "Invalid Bitcoin Address"
-msgstr "Dirección bitcoin inválida"
+msgid "Invalid Goldcoin Address"
+msgstr "Dirección goldcoin inválida"
 
 #: electrum/gui/stdio.py:175 electrum/gui/text.py:356
-msgid "Invalid Bitcoin address"
-msgstr "Dirección de bitcoin no válida"
+msgid "Invalid Goldcoin address"
+msgstr "Dirección de goldcoin no válida"
 
 #: electrum/gui/qt/main_window.py:2646 electrum/gui/qt/main_window.py:2674
 #: electrum/wallet.py:2289
-msgid "Invalid Bitcoin address."
-msgstr "Dirección Bitcoin inválida."
+msgid "Invalid Goldcoin address."
+msgstr "Dirección Goldcoin inválida."
 
 #: electrum/gui/stdio.py:185 electrum/gui/text.py:366
 msgid "Invalid Fee"
@@ -4165,8 +4165,8 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "Por favor, guarde estas {0} palabras en papel (el orden es importante)."
 
 #: electrum/gui/kivy/uix/screens.py:291
-msgid "Please scan a Bitcoin address or a payment request"
-msgstr "Escanee una dirección de Bitcoin o una solicitud de pago"
+msgid "Please scan a Goldcoin address or a payment request"
+msgstr "Escanee una dirección de Goldcoin o una solicitud de pago"
 
 #: electrum/gui/qt/main_window.py:617
 msgid "Please select a backup directory"
@@ -4980,8 +4980,8 @@ msgid "Share"
 msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:134
-msgid "Share Bitcoin Request"
-msgstr "Compartir Solicitud de Pago Bitcoin"
+msgid "Share Goldcoin Request"
+msgstr "Compartir Solicitud de Pago Goldcoin"
 
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:126
 msgid "Share Invoice"
@@ -5181,7 +5181,7 @@ msgid "Standard wallet"
 msgstr "Cartera estándar"
 
 #: electrum/gui/qt/main_window.py:797
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Goldcoin system."
 msgstr ""
 
 #: electrum/gui/qt/channel_details.py:173
@@ -5300,8 +5300,8 @@ msgid "Testnet coins are worthless."
 msgstr "Las monedas Testnet no tienen ningún valor."
 
 #: electrum/gui/qt/main_window.py:580
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
-msgstr "Testnet está separado de la red principal de Bitcoin. Se usa para pruebas."
+msgid "Testnet is separate from the main Goldcoin network. It is used for testing."
+msgstr "Testnet está separado de la red principal de Goldcoin. Se usa para pruebas."
 
 #: electrum/gui/qt/util.py:840 electrum/gui/qt/main_window.py:1288
 #: electrum/gui/qt/qrcodewidget.py:148
@@ -5352,8 +5352,8 @@ msgid "The amount will be displayed in red if you do not have enough funds in yo
 msgstr "El monto será mostrado en rojo si no posee los suficientes fondos en su cartera."
 
 #: electrum/gui/qt/main_window.py:1100
-msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "La dirección bitcoin nunca expira y siempre será parte de su cartera electrum."
+msgid "The goldcoin address never expires and will always be part of this electrum wallet."
+msgstr "La dirección goldcoin nunca expira y siempre será parte de su cartera electrum."
 
 #: electrum/gui/qt/channels_list.py:520
 msgid "The channel peer can route Trampoline payments."
@@ -5826,10 +5826,10 @@ msgstr "Transacción ya guardada o aún no firmada."
 #: electrum/network.py:927
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mGLC and GLC."
 msgstr "La transacción no se pudo transmitir debido a las salidas de polvo.\n"
 "Algunas de las salidas tienen un valor demasiado pequeño, probablemente inferior a 1000 satoshis.\n"
-"Compruebe las unidades, asegúrese de no haber confundido, p. ej. mBTC y BTC."
+"Compruebe las unidades, asegúrese de no haber confundido, p. ej. mGLC y GLC."
 
 #: electrum/gui/qt/main_window.py:3412
 msgid "Transaction could not be saved."
@@ -6497,8 +6497,8 @@ msgid "You can override the suggested derivation path."
 msgstr "Puede anular la ruta de derivación sugerida."
 
 #: electrum/gui/qt/main_window.py:1101
-msgid "You can reuse a bitcoin address any number of times but it is not good for your privacy."
-msgstr "Puede reutilizar una dirección de bitcoin tantas veces como desee, pero no es bueno para su privacidad."
+msgid "You can reuse a goldcoin address any number of times but it is not good for your privacy."
+msgstr "Puede reutilizar una dirección de goldcoin tantas veces como desee, pero no es bueno para su privacidad."
 
 #: electrum/plugins/safe_t/qt.py:414 electrum/plugins/trezor/qt.py:680
 msgid "You can set the homescreen on your device to personalize it.  You must choose a {} x {} monochrome black and white image."
@@ -6530,8 +6530,8 @@ msgid "You have {n} open channels."
 msgstr "Tiene {n} canales abiertos."
 
 #: electrum/gui/qt/main_window.py:1355
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Puede introducir una dirección de bitcoin, una etiqueta de su lista de contactos (se desplegará una lista para autocompletar), o un pseudónimo (una dirección estilo email que redirige a una dirección Bitcoin)"
+msgid "You may enter a Goldcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Goldcoin address)"
+msgstr "Puede introducir una dirección de goldcoin, una etiqueta de su lista de contactos (se desplegará una lista para autocompletar), o un pseudónimo (una dirección estilo email que redirige a una dirección Goldcoin)"
 
 #: electrum/base_wizard.py:497
 msgid "You may extend your seed with custom words."
@@ -6652,8 +6652,8 @@ msgid "Your server is on branch"
 msgstr "Tu servidor está en la brecha"
 
 #: electrum/network.py:1011
-msgid "Your transaction is paying a fee that is so low that the bitcoin node cannot fit it into its mempool. The mempool is already full of hundreds of megabytes of transactions that all pay higher fees. Try to increase the fee."
-msgstr "Su transacción está pagando una tarifa que es tan baja que el nodo bitcoin no puede encajar en su mempool. El mempool ya está lleno de cientos de megabytes de transacciones que pagan tarifas más altas. Intente aumentar la tarifa."
+msgid "Your transaction is paying a fee that is so low that the goldcoin node cannot fit it into its mempool. The mempool is already full of hundreds of megabytes of transactions that all pay higher fees. Try to increase the fee."
+msgstr "Su transacción está pagando una tarifa que es tan baja que el nodo goldcoin no puede encajar en su mempool. El mempool ya está lleno de cientos de megabytes de transacciones que pagan tarifas más altas. Intente aumentar la tarifa."
 
 #: electrum/network.py:1020
 msgid "Your transaction is trying to replace another one in the mempool but it does not meet the rules to do so. Try to increase the fee."

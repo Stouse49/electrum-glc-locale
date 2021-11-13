@@ -38,7 +38,7 @@ msgid "&Addresses"
 msgstr "&Címek"
 
 #: electrum/gui/qt/main_window.py:776
-msgid "&Bitcoin Paper"
+msgid "&Goldcoin Paper"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:771
@@ -490,7 +490,7 @@ msgstr "Arab"
 msgid "Are you SURE you want to wipe the device?\n"
 "Your wallet still has bitcoins in it!"
 msgstr "Biztosan törölni szeretnéd az eszközt?\n"
-"A pénztárcádban még van bitcoin!"
+"A pénztárcádban még van goldcoin!"
 
 #: electrum/gui/qt/channels_list.py:168
 #: electrum/gui/kivy/uix/dialogs/lightning_channels.py:534
@@ -585,19 +585,19 @@ msgid "BIP70 invoice saved as {}"
 msgstr "BIP70 számla mentve mint {}"
 
 #: electrum/gui/qt/history_list.py:596
-msgid "BTC Fiat price"
+msgid "GLC Fiat price"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:592
-msgid "BTC balance"
+msgid "GLC balance"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:613
-msgid "BTC incoming"
+msgid "GLC incoming"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:617
-msgid "BTC outgoing"
+msgid "GLC outgoing"
 msgstr ""
 
 #: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:163
@@ -674,16 +674,16 @@ msgid "BitBox02 Status"
 msgstr "BitBox02 Státusz"
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:95
-msgid "Bitcoin Address"
-msgstr "Bitcoin cím"
+msgid "Goldcoin Address"
+msgstr "Goldcoin cím"
 
 #: electrum/gui/qt/main_window.py:1509
-msgid "Bitcoin Address is None"
+msgid "Goldcoin Address is None"
 msgstr "Ez a cím nem létezik"
 
 #: electrum/gui/qt/confirm_tx_dialog.py:142
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "A Bitcoin tranzakciók nem ingyenesek. A tranzakciós díjat a pénz küldője fizeti ki."
+msgid "Goldcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "A Goldcoin tranzakciók nem ingyenesek. A tranzakciós díjat a pénz küldője fizeti ki."
 
 #: electrum/gui/qt/locktimeedit.py:36
 msgid "Block height"
@@ -1405,7 +1405,7 @@ msgstr "Másolás és bezárás"
 
 #: electrum/gui/kivy/uix/ui_screens/send.kv:97
 msgid "Copy and paste the recipient address using the Paste button, or use the camera to scan a QR code."
-msgstr "Illeszd be a címzett Bitcoin címét a Beillesztés gomb segítségével, vagy használd a fényképezőgépet egy QR-kód beolvasásához."
+msgstr "Illeszd be a címzett Goldcoin címét a Beillesztés gomb segítségével, vagy használd a fényképezőgépet egy QR-kód beolvasásához."
 
 #: electrum/gui/qt/util.py:836 electrum/gui/qt/transaction_dialog.py:274
 msgid "Copy to clipboard"
@@ -1689,8 +1689,8 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "Eszközkommunikációs hiba. Kérjük, húzd ki és dugd be újra a Digital Bitbox-ot."
 
 #: electrum/plugins/ledger/ledger.py:230
-msgid "Device not in Bitcoin mode"
-msgstr "Az eszköz nem Bitcoin üzemmódban van"
+msgid "Device not in Goldcoin mode"
+msgstr "Az eszköz nem Goldcoin üzemmódban van"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
 msgid "Digital Bitbox wallet"
@@ -1829,11 +1829,11 @@ msgstr "Electrum Pluginek"
 msgid "Electrum cannot pair with your {}.\n\n"
 "Before you request bitcoins to be sent to addresses in this wallet, ensure you can pair with your device, or that you have its seed (and passphrase, if any).  Otherwise all bitcoins you receive will be unspendable."
 msgstr "Az Electrum nem tudott megfelelően kapcsolódni az eszközhöz ({}).\n\n"
-"Mielőtt bármit is küldenél/fogadnál az ebben a pénztárcában lévő címekre, bizonyosodj meg róla, hogy képes vagy megfelelően kapcsolódni az eszközhöz, vagy hogy birtoklod a pénztárca magját (illetve a mag kiterjesztését/jelszavát, ha van). Kizárólag ekkor tudod majd elkölteni a Bitcoinjaid. Ellenkező esetben az összes fogadott Bitcoin elveszik (elkölthetetlen lesz)."
+"Mielőtt bármit is küldenél/fogadnál az ebben a pénztárcában lévő címekre, bizonyosodj meg róla, hogy képes vagy megfelelően kapcsolódni az eszközhöz, vagy hogy birtoklod a pénztárca magját (illetve a mag kiterjesztését/jelszavát, ha van). Kizárólag ekkor tudod majd elkölteni a Bitcoinjaid. Ellenkező esetben az összes fogadott Goldcoin elveszik (elkölthetetlen lesz)."
 
 #: electrum/gui/qt/installwizard.py:732
 msgid "Electrum communicates with remote servers to get information about your transactions and addresses. The servers all fulfill the same purpose only differing in hardware. In most cases you simply want to let Electrum pick one at random.  However if you prefer feel free to select a server manually."
-msgstr "Az Electrum távoli szerverekről kérdezi le a Bitcoin címekkel és tranzakciókkal kapcsolatos információkat. A szerverek mindnyájan ugyanazt a célt szolgálják, és kizárólag hardverben különböznek. Általában elég az Electrumra bízni, hogy véletlenszerűen válasszon egyet. Ám ha szeretnél, manuálisan is választhatsz szervert."
+msgstr "Az Electrum távoli szerverekről kérdezi le a Goldcoin címekkel és tranzakciókkal kapcsolatos információkat. A szerverek mindnyájan ugyanazt a célt szolgálják, és kizárólag hardverben különböznek. Általában elég az Electrumra bízni, hogy véletlenszerűen válasszon egyet. Ám ha szeretnél, manuálisan is választhatsz szervert."
 
 #: electrum/gui/qt/network_dialog.py:272
 msgid "Electrum connects to several nodes in order to download block headers and find out the longest blockchain."
@@ -1885,7 +1885,7 @@ msgid "Electrum will now exit."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:794
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Goldcoin."
 msgstr ""
 
 #: electrum/plugins/email_requests/__init__.py:3
@@ -2035,12 +2035,12 @@ msgid "Enter a label to name your device:"
 msgstr "Adj meg egy címkét a készülék elnevezéséhez:"
 
 #: electrum/base_wizard.py:230
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Adj meg Bitcoin címeket (ez egy figyelő-tárcát hoz létre), vagy privát kulcsokat."
+msgid "Enter a list of Goldcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Adj meg Goldcoin címeket (ez egy figyelő-tárcát hoz létre), vagy privát kulcsokat."
 
 #: electrum/gui/qt/main_window.py:2090
 msgid "Enter a list of outputs in the 'Pay to' field."
-msgstr "Írd be a Bitcoin címeket a \"Pénzküldés ide\" mezőbe."
+msgstr "Írd be a Goldcoin címeket a \"Pénzküldés ide\" mezőbe."
 
 #: electrum/plugins/keepkey/clientbase.py:53
 #: electrum/plugins/safe_t/clientbase.py:55
@@ -2442,8 +2442,8 @@ msgid "Firmware Version"
 msgstr "Firmware-verzió"
 
 #: electrum/plugins/ledger/ledger.py:45
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
-msgstr "Az eszköz firmware-je (vagy a \"Bitcoin\" alkalmazás) túl régi, a Segwit-et nem támogatja. Kérjük frissítsd:"
+msgid "Firmware version (or \"Goldcoin\" app) too old for Segwit support. Please update at"
+msgstr "Az eszköz firmware-je (vagy a \"Goldcoin\" alkalmazás) túl régi, a Segwit-et nem támogatja. Kérjük frissítsd:"
 
 #: electrum/plugins/trezor/qt.py:425
 msgid "Firmware version too old."
@@ -2829,12 +2829,12 @@ msgid "Import"
 msgstr "Importálás"
 
 #: electrum/base_wizard.py:229
-msgid "Import Bitcoin Addresses"
-msgstr "Bitcoin címek importálása"
+msgid "Import Goldcoin Addresses"
+msgstr "Goldcoin címek importálása"
 
 #: electrum/base_wizard.py:150
-msgid "Import Bitcoin addresses or private keys"
-msgstr "Bitcoin címek vagy privát kulcsok importálása"
+msgid "Import Goldcoin addresses or private keys"
+msgstr "Goldcoin címek vagy privát kulcsok importálása"
 
 #: electrum/gui/kivy/main_window.py:1379
 msgid "Import Channel Backup?"
@@ -2984,17 +2984,17 @@ msgstr "Érvénytelen összeg"
 
 #: electrum/gui/kivy/uix/screens.py:313
 #: electrum/plugins/hw_wallet/plugin.py:128
-msgid "Invalid Bitcoin Address"
-msgstr "Érvénytelen Bitcoin cím"
+msgid "Invalid Goldcoin Address"
+msgstr "Érvénytelen Goldcoin cím"
 
 #: electrum/gui/stdio.py:175 electrum/gui/text.py:356
-msgid "Invalid Bitcoin address"
-msgstr "Érvénytelen Bitcoin cím"
+msgid "Invalid Goldcoin address"
+msgstr "Érvénytelen Goldcoin cím"
 
 #: electrum/gui/qt/main_window.py:2646 electrum/gui/qt/main_window.py:2674
 #: electrum/wallet.py:2289
-msgid "Invalid Bitcoin address."
-msgstr "Érvénytelen Bitcoin cím."
+msgid "Invalid Goldcoin address."
+msgstr "Érvénytelen Goldcoin cím."
 
 #: electrum/gui/stdio.py:185 electrum/gui/text.py:366
 msgid "Invalid Fee"
@@ -3078,7 +3078,7 @@ msgstr "Számlák"
 
 #: electrum/gui/qt/installwizard.py:44
 msgid "It also contains your master public key that allows watching your addresses."
-msgstr "Továbbá tartalmazza még a nyilvános mesterkulcsot is, ami segítségével figyelheted a Bitcoin-címeid."
+msgstr "Továbbá tartalmazza még a nyilvános mesterkulcsot is, ami segítségével figyelheted a Goldcoin-címeid."
 
 #: electrum/gui/qt/main_window.py:2927
 msgid "It cannot be \"backed up\" by simply exporting these private keys."
@@ -3122,7 +3122,7 @@ msgstr "KeepKey pénztárca"
 
 #: electrum/gui/qt/main_window.py:1375
 msgid "Keyboard shortcut: type \"!\" to send all your coins."
-msgstr "Gyorsbillentyű: ! (felkiáltójel) beírásával az összes elérhető Bitcoin mennyiség beíródik a mezőbe."
+msgstr "Gyorsbillentyű: ! (felkiáltójel) beírásával az összes elérhető Goldcoin mennyiség beíródik a mezőbe."
 
 #: electrum/base_wizard.py:206
 msgid "Keystore"
@@ -3786,7 +3786,7 @@ msgstr "Csak egy szerverhez csatlakozzon"
 #: electrum/plugins/keepkey/qt.py:554 electrum/plugins/safe_t/qt.py:484
 #: electrum/plugins/trezor/qt.py:750
 msgid "Only wipe a device if you have the recovery seed written down and the device wallet(s) are empty, otherwise the bitcoins will be lost forever."
-msgstr "Kizárólag akkor töröld az eszközt, ha a visszaállításhoz szükséges magot már leírtad, és az eszközön lévő pénztárcák üresek. Ellenkező esetben az eszközön lévő összes Bitcoin elveszik."
+msgstr "Kizárólag akkor töröld az eszközt, ha a visszaállításhoz szükséges magot már leírtad, és az eszközön lévő pénztárcák üresek. Ellenkező esetben az eszközön lévő összes Goldcoin elveszik."
 
 #: electrum/gui/qt/channels_list.py:352 electrum/gui/qt/channels_list.py:388
 msgid "Open Channel"
@@ -4163,8 +4163,8 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "Írd le ezt a {0} szót egy papírra (a sorrend is fontos). Ezekere a szavakra a továbbiakban \"mag\"-ként hivatkozunk. "
 
 #: electrum/gui/kivy/uix/screens.py:291
-msgid "Please scan a Bitcoin address or a payment request"
-msgstr "Kérjük szkennelj be egy Bitcoin címet, vagy egy fizetési kérelmet"
+msgid "Please scan a Goldcoin address or a payment request"
+msgstr "Kérjük szkennelj be egy Goldcoin címet, vagy egy fizetési kérelmet"
 
 #: electrum/gui/qt/main_window.py:617
 msgid "Please select a backup directory"
@@ -4978,8 +4978,8 @@ msgid "Share"
 msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:134
-msgid "Share Bitcoin Request"
-msgstr "Bitcoin kérelem megosztása"
+msgid "Share Goldcoin Request"
+msgstr "Goldcoin kérelem megosztása"
 
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:126
 msgid "Share Invoice"
@@ -5179,7 +5179,7 @@ msgid "Standard wallet"
 msgstr "Általános pénztárca"
 
 #: electrum/gui/qt/main_window.py:797
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Goldcoin system."
 msgstr ""
 
 #: electrum/gui/qt/channel_details.py:173
@@ -5298,8 +5298,8 @@ msgid "Testnet coins are worthless."
 msgstr "A Testnet-en lévő Bitcoinok értéktelenek."
 
 #: electrum/gui/qt/main_window.py:580
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
-msgstr "A Testnet egy külön Bitcoin hálózat, amit tesztelésre használnak."
+msgid "Testnet is separate from the main Goldcoin network. It is used for testing."
+msgstr "A Testnet egy külön Goldcoin hálózat, amit tesztelésre használnak."
 
 #: electrum/gui/qt/util.py:840 electrum/gui/qt/main_window.py:1288
 #: electrum/gui/qt/qrcodewidget.py:148
@@ -5349,8 +5349,8 @@ msgid "The amount will be displayed in red if you do not have enough funds in yo
 msgstr "Az összeg piros színű lesz, ha nincs elég pénz a pénztárcában."
 
 #: electrum/gui/qt/main_window.py:1100
-msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "A kérelemhez tartozó Bitcoin cím soha nem jár le, mindig is része marad ennek a pénztárcának."
+msgid "The goldcoin address never expires and will always be part of this electrum wallet."
+msgstr "A kérelemhez tartozó Goldcoin cím soha nem jár le, mindig is része marad ennek a pénztárcának."
 
 #: electrum/gui/qt/channels_list.py:520
 msgid "The channel peer can route Trampoline payments."
@@ -5821,7 +5821,7 @@ msgstr "A tranzakció már el lett mentve, vagy még nem lett aláírva."
 #: electrum/network.py:927
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mGLC and GLC."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:3412
@@ -6490,7 +6490,7 @@ msgid "You can override the suggested derivation path."
 msgstr "Felülírhatod az ajánlott generálási útvonalat."
 
 #: electrum/gui/qt/main_window.py:1101
-msgid "You can reuse a bitcoin address any number of times but it is not good for your privacy."
+msgid "You can reuse a goldcoin address any number of times but it is not good for your privacy."
 msgstr ""
 
 #: electrum/plugins/safe_t/qt.py:414 electrum/plugins/trezor/qt.py:680
@@ -6523,8 +6523,8 @@ msgid "You have {n} open channels."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1355
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Írj be egy Bitcoin címet, egy címkét a névjegyekből (kitöltést segítő ajánlások jelennek meg), vagy egy álnevet (e-mailhez hasonló cím, ami egyenesen az címzett Bitcoin címére továbbít)"
+msgid "You may enter a Goldcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Goldcoin address)"
+msgstr "Írj be egy Goldcoin címet, egy címkét a névjegyekből (kitöltést segítő ajánlások jelennek meg), vagy egy álnevet (e-mailhez hasonló cím, ami egyenesen az címzett Goldcoin címére továbbít)"
 
 #: electrum/base_wizard.py:497
 msgid "You may extend your seed with custom words."
@@ -6644,7 +6644,7 @@ msgid "Your server is on branch"
 msgstr "A szerver az alábbi ágon van:"
 
 #: electrum/network.py:1011
-msgid "Your transaction is paying a fee that is so low that the bitcoin node cannot fit it into its mempool. The mempool is already full of hundreds of megabytes of transactions that all pay higher fees. Try to increase the fee."
+msgid "Your transaction is paying a fee that is so low that the goldcoin node cannot fit it into its mempool. The mempool is already full of hundreds of megabytes of transactions that all pay higher fees. Try to increase the fee."
 msgstr ""
 
 #: electrum/network.py:1020

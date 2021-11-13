@@ -38,7 +38,7 @@ msgid "&Addresses"
 msgstr "地址(&A)"
 
 #: electrum/gui/qt/main_window.py:776
-msgid "&Bitcoin Paper"
+msgid "&Goldcoin Paper"
 msgstr "比特币白皮书(&B)"
 
 #: electrum/gui/qt/main_window.py:771
@@ -585,19 +585,19 @@ msgid "BIP70 invoice saved as {}"
 msgstr "BIP70发票已被保存到{}"
 
 #: electrum/gui/qt/history_list.py:596
-msgid "BTC Fiat price"
+msgid "GLC Fiat price"
 msgstr "BTC法币价格"
 
 #: electrum/gui/qt/history_list.py:592
-msgid "BTC balance"
+msgid "GLC balance"
 msgstr "BTC余额"
 
 #: electrum/gui/qt/history_list.py:613
-msgid "BTC incoming"
+msgid "GLC incoming"
 msgstr "BTC流入"
 
 #: electrum/gui/qt/history_list.py:617
-msgid "BTC outgoing"
+msgid "GLC outgoing"
 msgstr "BTC流出"
 
 #: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:163
@@ -674,15 +674,15 @@ msgid "BitBox02 Status"
 msgstr "BitBox02状态"
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:95
-msgid "Bitcoin Address"
+msgid "Goldcoin Address"
 msgstr "比特币地址"
 
 #: electrum/gui/qt/main_window.py:1509
-msgid "Bitcoin Address is None"
+msgid "Goldcoin Address is None"
 msgstr "比特币地址为空"
 
 #: electrum/gui/qt/confirm_tx_dialog.py:142
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgid "Goldcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr "在一般情况下，比特币交易不是免费的。比特币的发送者需要支付一定的手续费。"
 
 #: electrum/gui/qt/locktimeedit.py:36
@@ -1689,7 +1689,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr "设备通讯错误。请拔出并重新插入你的硬件钱包。"
 
 #: electrum/plugins/ledger/ledger.py:230
-msgid "Device not in Bitcoin mode"
+msgid "Device not in Goldcoin mode"
 msgstr "设备不在比特币模式"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
@@ -1885,7 +1885,7 @@ msgid "Electrum will now exit."
 msgstr "Electrum即将退出。"
 
 #: electrum/gui/qt/main_window.py:794
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Goldcoin."
 msgstr "Electrum的特点是速度, 低内存使用率以及便捷比特币。"
 
 #: electrum/plugins/email_requests/__init__.py:3
@@ -2036,7 +2036,7 @@ msgid "Enter a label to name your device:"
 msgstr "输入一个标签来命名你的设备："
 
 #: electrum/base_wizard.py:230
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Goldcoin addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr "在列表中输入比特币地址（这将创建一个仅供监视的钱包），或者私钥。"
 
 #: electrum/gui/qt/main_window.py:2090
@@ -2443,8 +2443,8 @@ msgid "Firmware Version"
 msgstr "固件版本"
 
 #: electrum/plugins/ledger/ledger.py:45
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
-msgstr "固件版本（或者说\"Bitcoin\"这个app）太旧，不能支持隔离见证。请更新"
+msgid "Firmware version (or \"Goldcoin\" app) too old for Segwit support. Please update at"
+msgstr "固件版本（或者说\"Goldcoin\"这个app）太旧，不能支持隔离见证。请更新"
 
 #: electrum/plugins/trezor/qt.py:425
 msgid "Firmware version too old."
@@ -2831,11 +2831,11 @@ msgid "Import"
 msgstr "导入"
 
 #: electrum/base_wizard.py:229
-msgid "Import Bitcoin Addresses"
+msgid "Import Goldcoin Addresses"
 msgstr "导入比特币地址"
 
 #: electrum/base_wizard.py:150
-msgid "Import Bitcoin addresses or private keys"
+msgid "Import Goldcoin addresses or private keys"
 msgstr "导入比特币地址或私钥"
 
 #: electrum/gui/kivy/main_window.py:1379
@@ -2986,16 +2986,16 @@ msgstr "金额无效"
 
 #: electrum/gui/kivy/uix/screens.py:313
 #: electrum/plugins/hw_wallet/plugin.py:128
-msgid "Invalid Bitcoin Address"
+msgid "Invalid Goldcoin Address"
 msgstr "比特币地址无效"
 
 #: electrum/gui/stdio.py:175 electrum/gui/text.py:356
-msgid "Invalid Bitcoin address"
+msgid "Invalid Goldcoin address"
 msgstr "比特币地址无效"
 
 #: electrum/gui/qt/main_window.py:2646 electrum/gui/qt/main_window.py:2674
 #: electrum/wallet.py:2289
-msgid "Invalid Bitcoin address."
+msgid "Invalid Goldcoin address."
 msgstr "比特币地址无效。"
 
 #: electrum/gui/stdio.py:185 electrum/gui/text.py:366
@@ -4165,7 +4165,7 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "请将这{0} 个单词依次写在纸上（不要擅自打乱顺序、也不要重新排序）。 "
 
 #: electrum/gui/kivy/uix/screens.py:291
-msgid "Please scan a Bitcoin address or a payment request"
+msgid "Please scan a Goldcoin address or a payment request"
 msgstr "请扫描比特币地址或支付请求"
 
 #: electrum/gui/qt/main_window.py:617
@@ -4980,7 +4980,7 @@ msgid "Share"
 msgstr "碎片"
 
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:134
-msgid "Share Bitcoin Request"
+msgid "Share Goldcoin Request"
 msgstr "分享比特币付款请求"
 
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:126
@@ -5181,7 +5181,7 @@ msgid "Standard wallet"
 msgstr "标准钱包"
 
 #: electrum/gui/qt/main_window.py:797
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Goldcoin system."
 msgstr "Electrum的重点是速度快, 具有较低的内存使用率和简化了比特币。启动时间是即时的因为他与高性能服务器相结合运作来处理比特币系统中最复杂的部分。"
 
 #: electrum/gui/qt/channel_details.py:173
@@ -5300,7 +5300,7 @@ msgid "Testnet coins are worthless."
 msgstr "测试网上的币是没有价值的。"
 
 #: electrum/gui/qt/main_window.py:580
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
+msgid "Testnet is separate from the main Goldcoin network. It is used for testing."
 msgstr "测试网是和比特币主网隔离的。它主要被用于测试。"
 
 #: electrum/gui/qt/util.py:840 electrum/gui/qt/main_window.py:1288
@@ -5352,7 +5352,7 @@ msgid "The amount will be displayed in red if you do not have enough funds in yo
 msgstr "如果您的钱包资金不足，金额会被显示为红色。"
 
 #: electrum/gui/qt/main_window.py:1100
-msgid "The bitcoin address never expires and will always be part of this electrum wallet."
+msgid "The goldcoin address never expires and will always be part of this electrum wallet."
 msgstr "比特币地址永不过期，而且永远是这个electrum钱包的一部分。"
 
 #: electrum/gui/qt/channels_list.py:520
@@ -5827,7 +5827,7 @@ msgstr "交易已被保存，或者尚未签名。"
 #: electrum/network.py:927
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mGLC and GLC."
 msgstr "交易因为尘额输出而无法被广播。\n"
 "有些输出的数额太小了，大概是比1000聪还小。\n"
 "请检查单位，确保你没有混淆单位，比如mBTC和BTC。"
@@ -6498,7 +6498,7 @@ msgid "You can override the suggested derivation path."
 msgstr "您可以忽略建议的派生路径，指定您自己的路径。"
 
 #: electrum/gui/qt/main_window.py:1101
-msgid "You can reuse a bitcoin address any number of times but it is not good for your privacy."
+msgid "You can reuse a goldcoin address any number of times but it is not good for your privacy."
 msgstr "比特币地址可以被重复使用无限次，但是这对你的隐私不利。"
 
 #: electrum/plugins/safe_t/qt.py:414 electrum/plugins/trezor/qt.py:680
@@ -6531,7 +6531,7 @@ msgid "You have {n} open channels."
 msgstr "你有 {n} 个打开的通道"
 
 #: electrum/gui/qt/main_window.py:1355
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
+msgid "You may enter a Goldcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Goldcoin address)"
 msgstr "您可以输入：一个比特币地址，您联系人列表中的一个标签（输入时会有自动补全提示列表），或者一个别名（格式类似于电子邮件地址）"
 
 #: electrum/base_wizard.py:497
@@ -6655,7 +6655,7 @@ msgid "Your server is on branch"
 msgstr "您的服务器正处在分叉链上"
 
 #: electrum/network.py:1011
-msgid "Your transaction is paying a fee that is so low that the bitcoin node cannot fit it into its mempool. The mempool is already full of hundreds of megabytes of transactions that all pay higher fees. Try to increase the fee."
+msgid "Your transaction is paying a fee that is so low that the goldcoin node cannot fit it into its mempool. The mempool is already full of hundreds of megabytes of transactions that all pay higher fees. Try to increase the fee."
 msgstr "你的交易付出的手续费太低，以至于比特币节点无法把它加入内存池。填满内存池的数百兆字节交易全部都付出了更高的手续费。请尝试增加手续费。"
 
 #: electrum/network.py:1020

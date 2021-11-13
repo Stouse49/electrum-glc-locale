@@ -38,7 +38,7 @@ msgid "&Addresses"
 msgstr "&Adreses"
 
 #: electrum/gui/qt/main_window.py:776
-msgid "&Bitcoin Paper"
+msgid "&Goldcoin Paper"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:771
@@ -584,19 +584,19 @@ msgid "BIP70 invoice saved as {}"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:596
-msgid "BTC Fiat price"
+msgid "GLC Fiat price"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:592
-msgid "BTC balance"
+msgid "GLC balance"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:613
-msgid "BTC incoming"
+msgid "GLC incoming"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:617
-msgid "BTC outgoing"
+msgid "GLC outgoing"
 msgstr ""
 
 #: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:163
@@ -673,16 +673,16 @@ msgid "BitBox02 Status"
 msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/receive.kv:95
-msgid "Bitcoin Address"
-msgstr "Bitcoin adrese"
+msgid "Goldcoin Address"
+msgstr "Goldcoin adrese"
 
 #: electrum/gui/qt/main_window.py:1509
-msgid "Bitcoin Address is None"
-msgstr "Bitcoin adrese ir Nekas"
+msgid "Goldcoin Address is None"
+msgstr "Goldcoin adrese ir Nekas"
 
 #: electrum/gui/qt/confirm_tx_dialog.py:142
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Bitcoin transakcijas nav bezmaksas. Transakcijas komisijas maksu maksā līdzekļu nosūtītājs."
+msgid "Goldcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Goldcoin transakcijas nav bezmaksas. Transakcijas komisijas maksu maksā līdzekļu nosūtītājs."
 
 #: electrum/gui/qt/locktimeedit.py:36
 msgid "Block height"
@@ -1686,7 +1686,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr ""
 
 #: electrum/plugins/ledger/ledger.py:230
-msgid "Device not in Bitcoin mode"
+msgid "Device not in Goldcoin mode"
 msgstr ""
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
@@ -1881,7 +1881,7 @@ msgid "Electrum will now exit."
 msgstr "Electrum tagad izies."
 
 #: electrum/gui/qt/main_window.py:794
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Goldcoin."
 msgstr ""
 
 #: electrum/plugins/email_requests/__init__.py:3
@@ -2031,8 +2031,8 @@ msgid "Enter a label to name your device:"
 msgstr ""
 
 #: electrum/base_wizard.py:230
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Ievadiet Bitcoin adrešu sarakstu (šī darbība izveidos maciņu tikai skatīšanai) vai sarakstu ar privātajām atslēgām."
+msgid "Enter a list of Goldcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Ievadiet Goldcoin adrešu sarakstu (šī darbība izveidos maciņu tikai skatīšanai) vai sarakstu ar privātajām atslēgām."
 
 #: electrum/gui/qt/main_window.py:2090
 msgid "Enter a list of outputs in the 'Pay to' field."
@@ -2437,7 +2437,7 @@ msgid "Firmware Version"
 msgstr ""
 
 #: electrum/plugins/ledger/ledger.py:45
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
+msgid "Firmware version (or \"Goldcoin\" app) too old for Segwit support. Please update at"
 msgstr ""
 
 #: electrum/plugins/trezor/qt.py:425
@@ -2824,12 +2824,12 @@ msgid "Import"
 msgstr "Importēt"
 
 #: electrum/base_wizard.py:229
-msgid "Import Bitcoin Addresses"
-msgstr "Importēt Bitcoin adreses"
+msgid "Import Goldcoin Addresses"
+msgstr "Importēt Goldcoin adreses"
 
 #: electrum/base_wizard.py:150
-msgid "Import Bitcoin addresses or private keys"
-msgstr "Importēt Bitcoin adreses vai privātās atslēgas"
+msgid "Import Goldcoin addresses or private keys"
+msgstr "Importēt Goldcoin adreses vai privātās atslēgas"
 
 #: electrum/gui/kivy/main_window.py:1379
 msgid "Import Channel Backup?"
@@ -2977,17 +2977,17 @@ msgstr "Nederīga summa"
 
 #: electrum/gui/kivy/uix/screens.py:313
 #: electrum/plugins/hw_wallet/plugin.py:128
-msgid "Invalid Bitcoin Address"
-msgstr "Nederīga Bitcoin adrese"
+msgid "Invalid Goldcoin Address"
+msgstr "Nederīga Goldcoin adrese"
 
 #: electrum/gui/stdio.py:175 electrum/gui/text.py:356
-msgid "Invalid Bitcoin address"
-msgstr "Nederīga Bitcoin adrese"
+msgid "Invalid Goldcoin address"
+msgstr "Nederīga Goldcoin adrese"
 
 #: electrum/gui/qt/main_window.py:2646 electrum/gui/qt/main_window.py:2674
 #: electrum/wallet.py:2289
-msgid "Invalid Bitcoin address."
-msgstr "Nederīga Bitcoin adrese."
+msgid "Invalid Goldcoin address."
+msgstr "Nederīga Goldcoin adrese."
 
 #: electrum/gui/stdio.py:185 electrum/gui/text.py:366
 msgid "Invalid Fee"
@@ -3330,7 +3330,7 @@ msgstr ""
 
 #: electrum/gui/qt/main_window.py:563
 msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Pirms pieprasāt Bitcoin uz šo maciņu, pārliecinieties, ka esat sēklas frāzes vai privātās atslēgas īpašnieks."
+msgstr "Pirms pieprasāt Goldcoin uz šo maciņu, pārliecinieties, ka esat sēklas frāzes vai privātās atslēgas īpašnieks."
 
 #: electrum/plugins/coldcard/qt.py:143
 msgid "Master Fingerprint"
@@ -4156,8 +4156,8 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr "Lūdzu, pierakstiet šos {0} vārdus uz papīra (kārtība ir svarīga). "
 
 #: electrum/gui/kivy/uix/screens.py:291
-msgid "Please scan a Bitcoin address or a payment request"
-msgstr "Lūdzu, noskenējiet Bitcoin adresi vai maksājuma pieprasījumu"
+msgid "Please scan a Goldcoin address or a payment request"
+msgstr "Lūdzu, noskenējiet Goldcoin adresi vai maksājuma pieprasījumu"
 
 #: electrum/gui/qt/main_window.py:617
 msgid "Please select a backup directory"
@@ -4970,8 +4970,8 @@ msgid "Share"
 msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:134
-msgid "Share Bitcoin Request"
-msgstr "Dalīties ar Bitcoin pieprasījumu"
+msgid "Share Goldcoin Request"
+msgstr "Dalīties ar Goldcoin pieprasījumu"
 
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:126
 msgid "Share Invoice"
@@ -5171,7 +5171,7 @@ msgid "Standard wallet"
 msgstr "Standarta maciņš"
 
 #: electrum/gui/qt/main_window.py:797
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Goldcoin system."
 msgstr ""
 
 #: electrum/gui/qt/channel_details.py:173
@@ -5290,8 +5290,8 @@ msgid "Testnet coins are worthless."
 msgstr "Testnet tīkla monētas ir bezvērtīgas."
 
 #: electrum/gui/qt/main_window.py:580
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
-msgstr "Testnet tīkls ir atsevišķs no galvenā Bitcoin tīkla. To izmanto testēšanai."
+msgid "Testnet is separate from the main Goldcoin network. It is used for testing."
+msgstr "Testnet tīkls ir atsevišķs no galvenā Goldcoin tīkla. To izmanto testēšanai."
 
 #: electrum/gui/qt/util.py:840 electrum/gui/qt/main_window.py:1288
 #: electrum/gui/qt/qrcodewidget.py:148
@@ -5342,8 +5342,8 @@ msgid "The amount will be displayed in red if you do not have enough funds in yo
 msgstr "Ja maciņā nav pietiekami daudz līdzekļu, summa tiks rādīta sarkanā krāsā."
 
 #: electrum/gui/qt/main_window.py:1100
-msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "Bitcoin adresei nav derīguma termiņa, tā vienmēr būs daļa no šī Electrum maciņa."
+msgid "The goldcoin address never expires and will always be part of this electrum wallet."
+msgstr "Goldcoin adresei nav derīguma termiņa, tā vienmēr būs daļa no šī Electrum maciņa."
 
 #: electrum/gui/qt/channels_list.py:520
 msgid "The channel peer can route Trampoline payments."
@@ -5587,7 +5587,7 @@ msgstr "Šī opcija var palielināt transakciju komisijas maksu."
 
 #: electrum/gui/qt/main_window.py:562
 msgid "This means you will not be able to spend Bitcoins with it."
-msgstr "Tas nozīmē, ka nevarēsiet tērēt Bitcoin ar to."
+msgstr "Tas nozīmē, ka nevarēsiet tērēt Goldcoin ar to."
 
 #: electrum/gui/qt/settings_dialog.py:334
 msgid "This might improve your privacy somewhat."
@@ -5817,7 +5817,7 @@ msgstr "Transakcija ir jau saglabāta, vai vēl nav parakstīta."
 #: electrum/network.py:927
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mGLC and GLC."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:3412
@@ -6486,7 +6486,7 @@ msgid "You can override the suggested derivation path."
 msgstr "Jūs varat pārrakstīt ieteikto atvasinājuma ceļu."
 
 #: electrum/gui/qt/main_window.py:1101
-msgid "You can reuse a bitcoin address any number of times but it is not good for your privacy."
+msgid "You can reuse a goldcoin address any number of times but it is not good for your privacy."
 msgstr ""
 
 #: electrum/plugins/safe_t/qt.py:414 electrum/plugins/trezor/qt.py:680
@@ -6519,8 +6519,8 @@ msgid "You have {n} open channels."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1355
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
-msgstr "Jūs varat ievadīt Bitcoin adresi, etiķeti no kontaktu saraksta (sarakstu piedāvās automātiski pabeigt) vai aizstājvārdu (e-pastam līdzīgu adresi, kas pārsūtīs uz Bitcoin adresi)."
+msgid "You may enter a Goldcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Goldcoin address)"
+msgstr "Jūs varat ievadīt Goldcoin adresi, etiķeti no kontaktu saraksta (sarakstu piedāvās automātiski pabeigt) vai aizstājvārdu (e-pastam līdzīgu adresi, kas pārsūtīs uz Goldcoin adresi)."
 
 #: electrum/base_wizard.py:497
 msgid "You may extend your seed with custom words."
@@ -6591,7 +6591,7 @@ msgstr "Jūsu konti tika pārvietoti uz"
 
 #: electrum/gui/qt/password_dialog.py:256
 msgid "Your bitcoins are password protected. However, your wallet file is not encrypted."
-msgstr "Jūsu Bitcoin ir aizsargāti ar paroli. Tomēr, jūsu maciņš nav šifrēts."
+msgstr "Jūsu Goldcoin ir aizsargāti ar paroli. Tomēr, jūsu maciņš nav šifrēts."
 
 #: electrum/gui/qt/main_window.py:2473 electrum/gui/kivy/main_window.py:1412
 msgid "Your channels cannot be recovered from seed, because they were created with an old version of Electrum. This means that you must save a backup of your wallet everytime you create a new channel.\n\n"
@@ -6639,7 +6639,7 @@ msgid "Your server is on branch"
 msgstr "Jūsu serveris ir uz zara"
 
 #: electrum/network.py:1011
-msgid "Your transaction is paying a fee that is so low that the bitcoin node cannot fit it into its mempool. The mempool is already full of hundreds of megabytes of transactions that all pay higher fees. Try to increase the fee."
+msgid "Your transaction is paying a fee that is so low that the goldcoin node cannot fit it into its mempool. The mempool is already full of hundreds of megabytes of transactions that all pay higher fees. Try to increase the fee."
 msgstr ""
 
 #: electrum/network.py:1020
